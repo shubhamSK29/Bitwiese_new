@@ -1,0 +1,2929 @@
+{
+  "css_mcq_questions": [
+    {
+      "id": 1,
+      "category": "Introduction to CSS & Types",
+      "question": "What does CSS stand for?",
+      "options": {
+        "a": "Cascading Style Sheets",
+        "b": "Colorful Style Sheets",
+        "c": "Computer Style Sheets",
+        "d": "Creative Style Sheets"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS stands for Cascading Style Sheets, which is a style sheet language used for describing the presentation of a document written in HTML or XML."
+    },
+    {
+      "id": 2,
+      "category": "Introduction to CSS & Types",
+      "question": "Which HTML tag is used to link an external CSS file?",
+      "options": {
+        "a": "<style>",
+        "b": "<link>",
+        "c": "<css>",
+        "d": "<script>"
+      },
+      "correct_answer": "b",
+      "explanation": "The <link> tag is used to link external stylesheets to HTML documents."
+    },
+    {
+      "id": 3,
+      "category": "Introduction to CSS & Types",
+      "question": "Where is Inline CSS written?",
+      "options": {
+        "a": "In a separate .css file",
+        "b": "Inside <style> tag in <head>",
+        "c": "Directly in the HTML tag's style attribute",
+        "d": "Inside <script> tag"
+      },
+      "correct_answer": "c",
+      "explanation": "Inline CSS is written directly within an HTML element's style attribute."
+    },
+    {
+      "id": 4,
+      "category": "Introduction to CSS & Types",
+      "question": "What is the correct syntax for an Internal CSS?",
+      "options": {
+        "a": "<style> body {color: blue;} </style>",
+        "b": "<link> body {color: blue;} </link>",
+        "c": "<script> body {color: blue;} </script>",
+        "d": "<css> body {color: blue;} </css>"
+      },
+      "correct_answer": "a",
+      "explanation": "Internal CSS is written within the <style> tags in the HTML document."
+    },
+    {
+      "id": 5,
+      "category": "Introduction to CSS & Types",
+      "question": "Which type of CSS has the highest priority by default?",
+      "options": {
+        "a": "Inline CSS",
+        "b": "Internal CSS",
+        "c": "External CSS",
+        "d": "All have the same priority"
+      },
+      "correct_answer": "a",
+      "explanation": "Inline CSS has the highest priority in the CSS specificity hierarchy."
+    },
+    {
+      "id": 6,
+      "category": "Introduction to CSS & Types",
+      "question": "Which attribute is used to apply Inline CSS?",
+      "options": {
+        "a": "class",
+        "b": "id",
+        "c": "style",
+        "d": "href"
+      },
+      "correct_answer": "c",
+      "explanation": "The style attribute is used to apply Inline CSS directly to HTML elements."
+    },
+    {
+      "id": 7,
+      "category": "Introduction to CSS & Types",
+      "question": "How do you link an External CSS file in HTML?",
+      "options": {
+        "a": "<link rel=\"stylesheet\" href=\"style.css\">",
+        "b": "<css link=\"style.css\">",
+        "c": "<style src=\"style.css\">",
+        "d": "<script href=\"style.css\">"
+      },
+      "correct_answer": "a",
+      "explanation": "External CSS files are linked using the <link> tag with rel=\"stylesheet\" and href attributes."
+    },
+    {
+      "id": 8,
+      "category": "Introduction to CSS & Types",
+      "question": "What is the advantage of using External CSS?",
+      "options": {
+        "a": "Styles apply only to one page",
+        "b": "Easier maintenance and reusability",
+        "c": "Slower to load",
+        "d": "Cannot control multiple pages"
+      },
+      "correct_answer": "b",
+      "explanation": "External CSS provides better maintainability and reusability as it can be linked to multiple pages."
+    },
+    {
+      "id": 9,
+      "category": "Introduction to CSS & Types",
+      "question": "Which section of the HTML document contains Internal CSS?",
+      "options": {
+        "a": "<body>",
+        "b": "<footer>",
+        "c": "<head>",
+        "d": "<script>"
+      },
+      "correct_answer": "c",
+      "explanation": "Internal CSS is typically placed within the <head> section of an HTML document."
+    },
+    {
+      "id": 10,
+      "category": "Introduction to CSS & Types",
+      "question": "Can External CSS be applied to multiple web pages?",
+      "options": {
+        "a": "No",
+        "b": "Only if styles are embedded",
+        "c": "Yes",
+        "d": "Only with JavaScript"
+      },
+      "correct_answer": "c",
+      "explanation": "External CSS files can be linked to multiple web pages, allowing for consistent styling across a website."
+    },
+    {
+      "id": 11,
+      "category": "CSS Syntax & Selectors",
+      "question": "Which symbol is used to select an ID in CSS?",
+      "options": {
+        "a": ".",
+        "b": "#",
+        "c": "*",
+        "d": "@"
+      },
+      "correct_answer": "b",
+      "explanation": "The hash (#) symbol is used to select elements by their ID in CSS."
+    },
+    {
+      "id": 12,
+      "category": "CSS Syntax & Selectors",
+      "question": "What is the correct syntax to apply styles to all <p> elements?",
+      "options": {
+        "a": "p { color: red; }",
+        "b": "#p { color: red; }",
+        "c": ".p { color: red; }",
+        "d": "p: { color: red; }"
+      },
+      "correct_answer": "a",
+      "explanation": "Element selectors use the tag name without any prefix to target all elements of that type."
+    },
+    {
+      "id": 13,
+      "category": "CSS Syntax & Selectors",
+      "question": "Which selector targets all elements in the document?",
+      "options": {
+        "a": "#",
+        "b": ".",
+        "c": "*",
+        "d": "!"
+      },
+      "correct_answer": "c",
+      "explanation": "The universal selector (*) targets all elements in the document."
+    },
+    {
+      "id": 14,
+      "category": "CSS Syntax & Selectors",
+      "question": "What does specificity determine in CSS?",
+      "options": {
+        "a": "How fast the page loads",
+        "b": "The priority of conflicting CSS rules",
+        "c": "The number of styles applied",
+        "d": "The color format"
+      },
+      "correct_answer": "b",
+      "explanation": "Specificity determines which CSS rule takes precedence when multiple rules target the same element."
+    },
+    {
+      "id": 15,
+      "category": "CSS Syntax & Selectors",
+      "question": "Which selector has higher specificity?",
+      "options": {
+        "a": "Class selector",
+        "b": "ID selector",
+        "c": "Element selector",
+        "d": "Universal selector"
+      },
+      "correct_answer": "b",
+      "explanation": "ID selectors have higher specificity than class, element, or universal selectors."
+    },
+    {
+      "id": 16,
+      "category": "Colors, Units & CSS Variables",
+      "question": "Which of the following is a valid HEX color code?",
+      "options": {
+        "a": "#123",
+        "b": "#123456",
+        "c": "#abc",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "All of these are valid HEX color codes. Both three-digit and six-digit formats are valid."
+    },
+    {
+      "id": 17,
+      "category": "Colors, Units & CSS Variables",
+      "question": "What is the correct syntax for RGB color in CSS?",
+      "options": {
+        "a": "rgb(255, 0, 0)",
+        "b": "rgb[255, 0, 0]",
+        "c": "color(255, 0, 0)",
+        "d": "rgba(255, 0, 0)"
+      },
+      "correct_answer": "a",
+      "explanation": "RGB colors in CSS use the format rgb(red, green, blue) with values from 0 to 255."
+    },
+    {
+      "id": 18,
+      "category": "Colors, Units & CSS Variables",
+      "question": "What unit is relative to the font size of the root element?",
+      "options": {
+        "a": "em",
+        "b": "rem",
+        "c": "%",
+        "d": "px"
+      },
+      "correct_answer": "b",
+      "explanation": "The rem unit is relative to the font size of the root (html) element."
+    },
+    {
+      "id": 19,
+      "category": "Colors, Units & CSS Variables",
+      "question": "Which CSS variable syntax is correct?",
+      "options": {
+        "a": "--main-color: red;",
+        "b": "var-main-color: red;",
+        "c": "main-color = red;",
+        "d": "$main-color: red;"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS custom properties (variables) are declared using -- prefix and accessed using var() function."
+    },
+    {
+      "id": 20,
+      "category": "Colors, Units & CSS Variables",
+      "question": "How do you use a CSS variable in a rule?",
+      "options": {
+        "a": "color: var(--main-color);",
+        "b": "color: $main-color;",
+        "c": "color: --main-color;",
+        "d": "color: @main-color;"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS variables are used with the var() function to access their values."
+    },
+    {
+      "id": 21,
+      "category": "Text & Font Styling",
+      "question": "Which property is used to change the text color in CSS?",
+      "options": {
+        "a": "font-color",
+        "b": "color",
+        "c": "text-color",
+        "d": "background-color"
+      },
+      "correct_answer": "b",
+      "explanation": "The color property is used to specify the color of text."
+    },
+    {
+      "id": 22,
+      "category": "Text & Font Styling",
+      "question": "Which CSS property changes the font size?",
+      "options": {
+        "a": "font",
+        "b": "font-weight",
+        "c": "font-size",
+        "d": "text-size"
+      },
+      "correct_answer": "c",
+      "explanation": "The font-size property is used to specify the size of text."
+    },
+    {
+      "id": 23,
+      "category": "Text & Font Styling",
+      "question": "How do you make text bold in CSS?",
+      "options": {
+        "a": "font-style: bold;",
+        "b": "font-weight: bold;",
+        "c": "text-weight: bold;",
+        "d": "font-thickness: bold;"
+      },
+      "correct_answer": "b",
+      "explanation": "The font-weight property with value 'bold' is used to make text bold."
+    },
+    {
+      "id": 24,
+      "category": "Text & Font Styling",
+      "question": "Which property is used to change the font family?",
+      "options": {
+        "a": "font-style",
+        "b": "font-weight",
+        "c": "font-family",
+        "d": "text-family"
+      },
+      "correct_answer": "c",
+      "explanation": "The font-family property specifies the typeface to be used for text."
+    },
+    {
+      "id": 25,
+      "category": "Text & Font Styling",
+      "question": "What is the default font-weight value for normal text?",
+      "options": {
+        "a": "400",
+        "b": "100",
+        "c": "700",
+        "d": "300"
+      },
+      "correct_answer": "a",
+      "explanation": "The default font-weight value for normal text is 400."
+    },
+    {
+      "id": 26,
+      "category": "Box Model",
+      "question": "What are the four areas of the CSS Box Model (from inside out)?",
+      "options": {
+        "a": "Content, Padding, Border, Margin",
+        "b": "Padding, Content, Border, Margin",
+        "c": "Border, Padding, Margin, Content",
+        "d": "Margin, Border, Padding, Content"
+      },
+      "correct_answer": "a",
+      "explanation": "The CSS Box Model consists of Content (innermost), then Padding, Border, and Margin (outermost)."
+    },
+    {
+      "id": 27,
+      "category": "Box Model",
+      "question": "Which CSS property is used to add space inside the element, between content and border?",
+      "options": {
+        "a": "margin",
+        "b": "padding",
+        "c": "border",
+        "d": "spacing"
+      },
+      "correct_answer": "b",
+      "explanation": "Padding adds space inside an element, between its content and border."
+    },
+    {
+      "id": 28,
+      "category": "Box Model",
+      "question": "Which CSS property is used to create space outside the border of an element?",
+      "options": {
+        "a": "margin",
+        "b": "padding",
+        "c": "border-spacing",
+        "d": "gap"
+      },
+      "correct_answer": "a",
+      "explanation": "Margin creates space outside an element's border, between the element and other elements."
+    },
+    {
+      "id": 29,
+      "category": "Box Model",
+      "question": "What is the default box-sizing property value?",
+      "options": {
+        "a": "border-box",
+        "b": "content-box",
+        "c": "padding-box",
+        "d": "margin-box"
+      },
+      "correct_answer": "b",
+      "explanation": "The default box-sizing value is content-box, where width and height only include the content area."
+    },
+    {
+      "id": 30,
+      "category": "Box Model",
+      "question": "Which property sets the width of the border?",
+      "options": {
+        "a": "border-style",
+        "b": "border-width",
+        "c": "border-color",
+        "d": "border-padding"
+      },
+      "correct_answer": "b",
+      "explanation": "The border-width property sets the width of an element's border."
+    },
+    {
+      "id": 31,
+      "category": "Backgrounds & Gradients",
+      "question": "Which property is used to set a background color?",
+      "options": {
+        "a": "color",
+        "b": "background-color",
+        "c": "background",
+        "d": "border-color"
+      },
+      "correct_answer": "b",
+      "explanation": "The background-color property is used to set the background color of an element."
+    },
+    {
+      "id": 32,
+      "category": "Backgrounds & Gradients",
+      "question": "How do you set an image as the background in CSS?",
+      "options": {
+        "a": "background-image: url('image.jpg');",
+        "b": "background: image('image.jpg');",
+        "c": "image-background: 'image.jpg';",
+        "d": "background-img: url('image.jpg');"
+      },
+      "correct_answer": "a",
+      "explanation": "The background-image property with url() function is used to set an image as background."
+    },
+    {
+      "id": 33,
+      "category": "Backgrounds & Gradients",
+      "question": "Which property repeats the background image both horizontally and vertically by default?",
+      "options": {
+        "a": "background-repeat: no-repeat;",
+        "b": "background-repeat: repeat;",
+        "c": "background-repeat: repeat-x;",
+        "d": "background-repeat: repeat-y;"
+      },
+      "correct_answer": "b",
+      "explanation": "The default value of background-repeat is 'repeat', which repeats the image in both directions."
+    },
+    {
+      "id": 34,
+      "category": "Backgrounds & Gradients",
+      "question": "How do you prevent the background image from repeating?",
+      "options": {
+        "a": "background-repeat: repeat-x;",
+        "b": "background-repeat: no-repeat;",
+        "c": "background-repeat: repeat-y;",
+        "d": "background: no-repeat;"
+      },
+      "correct_answer": "b",
+      "explanation": "Use background-repeat: no-repeat; to prevent the background image from repeating."
+    },
+    {
+      "id": 35,
+      "category": "Backgrounds & Gradients",
+      "question": "Which property specifies the starting position of a background image?",
+      "options": {
+        "a": "background-origin",
+        "b": "background-position",
+        "c": "background-start",
+        "d": "position-background"
+      },
+      "correct_answer": "b",
+      "explanation": "The background-position property sets the starting position of a background image."
+    },
+    {
+      "id": 36,
+      "category": "Positioning & Z-Index",
+      "question": "What is the default position property value of an HTML element?",
+      "options": {
+        "a": "relative",
+        "b": "absolute",
+        "c": "static",
+        "d": "fixed"
+      },
+      "correct_answer": "c",
+      "explanation": "The default position value for all HTML elements is static."
+    },
+    {
+      "id": 37,
+      "category": "Positioning & Z-Index",
+      "question": "Which property is used to control the stack order of elements?",
+      "options": {
+        "a": "position",
+        "b": "z-index",
+        "c": "order",
+        "d": "display"
+      },
+      "correct_answer": "b",
+      "explanation": "The z-index property controls the vertical stacking order of elements that overlap."
+    },
+    {
+      "id": 38,
+      "category": "Positioning & Z-Index",
+      "question": "Which positioning type positions the element relative to its normal position?",
+      "options": {
+        "a": "absolute",
+        "b": "relative",
+        "c": "fixed",
+        "d": "static"
+      },
+      "correct_answer": "b",
+      "explanation": "Relative positioning moves an element relative to its normal position in the document flow."
+    },
+    {
+      "id": 39,
+      "category": "Positioning & Z-Index",
+      "question": "Which positioning removes the element from the normal document flow and positions it relative to its first positioned ancestor?",
+      "options": {
+        "a": "absolute",
+        "b": "relative",
+        "c": "fixed",
+        "d": "static"
+      },
+      "correct_answer": "a",
+      "explanation": "Absolute positioning removes the element from the normal flow and positions it relative to its nearest positioned ancestor."
+    },
+    {
+      "id": 40,
+      "category": "Positioning & Z-Index",
+      "question": "Which positioning keeps the element fixed relative to the browser window?",
+      "options": {
+        "a": "relative",
+        "b": "absolute",
+        "c": "fixed",
+        "d": "sticky"
+      },
+      "correct_answer": "c",
+      "explanation": "Fixed positioning keeps an element in the same position relative to the browser window, even when scrolling."
+    },
+    {
+      "id": 41,
+      "category": "Flexbox Layout",
+      "question": "Which CSS property is used to define a flex container?",
+      "options": {
+        "a": "display: block",
+        "b": "display: flex",
+        "c": "position: flex",
+        "d": "flex: container"
+      },
+      "correct_answer": "b",
+      "explanation": "The display: flex property creates a flex container."
+    },
+    {
+      "id": 42,
+      "category": "Flexbox Layout",
+      "question": "Which property defines the direction of the flex items?",
+      "options": {
+        "a": "flex-flow",
+        "b": "flex-direction",
+        "c": "justify-content",
+        "d": "align-items"
+      },
+      "correct_answer": "b",
+      "explanation": "The flex-direction property sets the direction of flex items within a container."
+    },
+    {
+      "id": 43,
+      "category": "Flexbox Layout",
+      "question": "What is the default value of flex-direction?",
+      "options": {
+        "a": "column",
+        "b": "row",
+        "c": "row-reverse",
+        "d": "column-reverse"
+      },
+      "correct_answer": "b",
+      "explanation": "The default value of flex-direction is row, which arranges items horizontally."
+    },
+    {
+      "id": 44,
+      "category": "Flexbox Layout",
+      "question": "Which property allows flex items to wrap onto multiple lines?",
+      "options": {
+        "a": "flex-wrap",
+        "b": "flex-flow",
+        "c": "flex-grow",
+        "d": "justify-content"
+      },
+      "correct_answer": "a",
+      "explanation": "The flex-wrap property controls whether flex items should wrap onto multiple lines."
+    },
+    {
+      "id": 45,
+      "category": "Flexbox Layout",
+      "question": "How do you combine flex-direction and flex-wrap properties in one line?",
+      "options": {
+        "a": "flex-wrap-direction",
+        "b": "flex-flow",
+        "c": "flex-align",
+        "d": "flex-group"
+      },
+      "correct_answer": "b",
+      "explanation": "The flex-flow property is a shorthand for flex-direction and flex-wrap properties."
+    },
+    {
+      "id": 46,
+      "category": "Grid Layout",
+      "question": "Which CSS property is used to create a grid container?",
+      "options": {
+        "a": "display: block",
+        "b": "display: flex",
+        "c": "display: grid",
+        "d": "grid-container: true"
+      },
+      "correct_answer": "c",
+      "explanation": "The display: grid property creates a grid container."
+    },
+    {
+      "id": 47,
+      "category": "Grid Layout",
+      "question": "Which property defines the number and size of columns in a grid?",
+      "options": {
+        "a": "grid-rows",
+        "b": "grid-columns",
+        "c": "grid-template-columns",
+        "d": "grid-layout"
+      },
+      "correct_answer": "c",
+      "explanation": "The grid-template-columns property defines the columns in a grid layout."
+    },
+    {
+      "id": 48,
+      "category": "Grid Layout",
+      "question": "How do you define the number and size of rows in a grid?",
+      "options": {
+        "a": "grid-template-rows",
+        "b": "grid-row-size",
+        "c": "grid-row",
+        "d": "grid-rows"
+      },
+      "correct_answer": "a",
+      "explanation": "The grid-template-rows property defines the rows in a grid layout."
+    },
+    {
+      "id": 49,
+      "category": "Grid Layout",
+      "question": "Which property defines the gap between grid rows and columns?",
+      "options": {
+        "a": "grid-gap",
+        "b": "gap",
+        "c": "grid-spacing",
+        "d": "column-gap"
+      },
+      "correct_answer": "b",
+      "explanation": "The gap property (formerly grid-gap) defines spacing between grid rows and columns."
+    },
+    {
+      "id": 50,
+      "category": "Grid Layout",
+      "question": "What value of grid-template-columns creates three equal columns?",
+      "options": {
+        "a": "1fr 1fr 1fr",
+        "b": "auto auto auto",
+        "c": "repeat(3, auto)",
+        "d": "fixed fixed fixed"
+      },
+      "correct_answer": "a",
+      "explanation": "Using '1fr 1fr 1fr' creates three equal-width columns using fractional units."
+    },
+    {
+      "id": 51,
+      "category": "Responsive Design & Media Queries",
+      "question": "What is the primary purpose of Responsive Design?",
+      "options": {
+        "a": "To create colorful websites",
+        "b": "To make websites load faster",
+        "c": "To make websites look good on all devices",
+        "d": "To use JavaScript efficiently"
+      },
+      "correct_answer": "c",
+      "explanation": "Responsive Design ensures websites adapt and look good across different screen sizes and devices."
+    },
+    {
+      "id": 52,
+      "category": "Responsive Design & Media Queries",
+      "question": "Which HTML tag is essential for responsive design to control viewport scaling?",
+      "options": {
+        "a": "<meta>",
+        "b": "<link>",
+        "c": "<viewport>",
+        "d": "<script>"
+      },
+      "correct_answer": "a",
+      "explanation": "The <meta> viewport tag is essential for controlling how websites scale on mobile devices."
+    },
+    {
+      "id": 53,
+      "category": "Responsive Design & Media Queries",
+      "question": "What does a media query start with in CSS?",
+      "options": {
+        "a": "@media",
+        "b": "media-query",
+        "c": "responsive",
+        "d": "@responsive"
+      },
+      "correct_answer": "a",
+      "explanation": "Media queries in CSS start with the @media rule."
+    },
+    {
+      "id": 54,
+      "category": "Responsive Design & Media Queries",
+      "question": "Which of these is a correct media query syntax for devices with width less than 600px?",
+      "options": {
+        "a": "@media (width < 600px)",
+        "b": "@media screen and (max-width: 600px)",
+        "c": "media-query (max-width: 600px)",
+        "d": "@responsive (max-width: 600px)"
+      },
+      "correct_answer": "b",
+      "explanation": "The correct syntax uses @media screen and (max-width: value) for width-based queries."
+    },
+    {
+      "id": 55,
+      "category": "Responsive Design & Media Queries",
+      "question": "Which CSS unit is most commonly used for flexible layouts in responsive design?",
+      "options": {
+        "a": "px",
+        "b": "em",
+        "c": "%",
+        "d": "pt"
+      },
+      "correct_answer": "c",
+      "explanation": "Percentage (%) units are commonly used for flexible, responsive layouts as they adapt to parent container size."
+    },
+    {
+      "id": 56,
+      "category": "Transitions & Animations",
+      "question": "Which property is used to define the duration of a transition?",
+      "options": {
+        "a": "transition-time",
+        "b": "transition-duration",
+        "c": "duration",
+        "d": "animation-time"
+      },
+      "correct_answer": "b",
+      "explanation": "The transition-duration property specifies how many seconds or milliseconds a transition effect takes to complete."
+    },
+    {
+      "id": 57,
+      "category": "Transitions & Animations",
+      "question": "What is the default value of transition-timing-function?",
+      "options": {
+        "a": "ease-in",
+        "b": "ease-out",
+        "c": "ease",
+        "d": "linear"
+      },
+      "correct_answer": "c",
+      "explanation": "The default timing function for transitions is 'ease', which starts slowly, speeds up in the middle, and slows down at the end."
+    },
+    {
+      "id": 58,
+      "category": "Transitions & Animations",
+      "question": "Which CSS property is used to apply 2D or 3D transformations?",
+      "options": {
+        "a": "transition",
+        "b": "transform",
+        "c": "animation",
+        "d": "translate"
+      },
+      "correct_answer": "b",
+      "explanation": "The transform property applies 2D or 3D transformations to elements."
+    },
+    {
+      "id": 59,
+      "category": "Transitions & Animations",
+      "question": "What does transform: rotate(45deg); do?",
+      "options": {
+        "a": "Moves the element",
+        "b": "Scales the element",
+        "c": "Rotates the element 45 degrees",
+        "d": "Skews the element"
+      },
+      "correct_answer": "c",
+      "explanation": "The rotate() transform function rotates an element by the specified angle in degrees."
+    },
+    {
+      "id": 60,
+      "category": "Transitions & Animations",
+      "question": "Which property is used to specify the name of the keyframes to use in animation?",
+      "options": {
+        "a": "animation-name",
+        "b": "animation-keyframe",
+        "c": "transition-name",
+        "d": "keyframe-name"
+      },
+      "correct_answer": "a",
+      "explanation": "The animation-name property specifies the name of the @keyframes animation to apply."
+    },
+    {
+      "id": 61,
+      "category": "Pseudo-classes & Pseudo-elements",
+      "question": "What does a pseudo-class target in CSS?",
+      "options": {
+        "a": "Specific HTML tags",
+        "b": "A specific class attribute",
+        "c": "An element's state",
+        "d": "JavaScript function"
+      },
+      "correct_answer": "c",
+      "explanation": "Pseudo-classes target specific states of elements, like hover or focus states."
+    },
+    {
+      "id": 62,
+      "category": "Pseudo-classes & Pseudo-elements",
+      "question": "Which of the following is a valid pseudo-class?",
+      "options": {
+        "a": ":hover",
+        "b": "::hover",
+        "c": ".hover",
+        "d": "hover:"
+      },
+      "correct_answer": "a",
+      "explanation": "Pseudo-classes use a single colon (:) prefix, like :hover."
+    },
+    {
+      "id": 63,
+      "category": "Pseudo-classes & Pseudo-elements",
+      "question": "What does the :hover pseudo-class do?",
+      "options": {
+        "a": "Styles an element when it is clicked",
+        "b": "Styles an element when the mouse is over it",
+        "c": "Styles an element when it's selected",
+        "d": "Styles an element when it's in focus"
+      },
+      "correct_answer": "b",
+      "explanation": "The :hover pseudo-class applies styles when a user hovers their mouse over an element."
+    },
+    {
+      "id": 64,
+      "category": "Pseudo-classes & Pseudo-elements",
+      "question": "Which pseudo-element is used to insert content before an element's content?",
+      "options": {
+        "a": ":before",
+        "b": "::before",
+        "c": ":pre-content",
+        "d": "::start"
+      },
+      "correct_answer": "b",
+      "explanation": "The ::before pseudo-element (with double colons) inserts content before an element's content."
+    },
+    {
+      "id": 65,
+      "category": "Pseudo-classes & Pseudo-elements",
+      "question": "What symbol is used for pseudo-elements in CSS3 syntax?",
+      "options": {
+        "a": ":",
+        "b": ".",
+        "c": "#",
+        "d": "::"
+      },
+      "correct_answer": "d",
+      "explanation": "In CSS3, pseudo-elements use double colons (::) to distinguish them from pseudo-classes."
+    },
+    {
+      "id": 66,
+      "category": "Advanced Selectors & Combinators",
+      "question": "Which combinator selects all elements that are direct children of a specified element?",
+      "options": {
+        "a": ">",
+        "b": "+",
+        "c": "~",
+        "d": ","
+      },
+      "correct_answer": "a",
+      "explanation": "The child combinator (>) selects elements that are direct children of a specified element."
+    },
+    {
+      "id": 67,
+      "category": "Advanced Selectors & Combinators",
+      "question": "What does the adjacent sibling combinator (+) select?",
+      "options": {
+        "a": "All child elements",
+        "b": "The next sibling element",
+        "c": "All sibling elements",
+        "d": "Parent element"
+      },
+      "correct_answer": "b",
+      "explanation": "The adjacent sibling combinator (+) selects an element that immediately follows another element."
+    },
+    {
+      "id": 68,
+      "category": "Advanced Selectors & Combinators",
+      "question": "What does the general sibling combinator (~) select?",
+      "options": {
+        "a": "Direct child",
+        "b": "Parent element",
+        "c": "All following siblings",
+        "d": "Previous siblings"
+      },
+      "correct_answer": "c",
+      "explanation": "The general sibling combinator (~) selects all following sibling elements."
+    },
+    {
+      "id": 69,
+      "category": "Advanced Selectors & Combinators",
+      "question": "Which attribute selector targets elements with a specific attribute value?",
+      "options": {
+        "a": "[attr=value]",
+        "b": "(attr=value)",
+        "c": "{attr=value}",
+        "d": "<attr=value>"
+      },
+      "correct_answer": "a",
+      "explanation": "The [attr=value] selector targets elements with the specified attribute exactly matching the value."
+    },
+    {
+      "id": 70,
+      "category": "Advanced Selectors & Combinators",
+      "question": "What does [attr^=value] selector do?",
+      "options": {
+        "a": "Matches elements whose attribute value ends with 'value'",
+        "b": "Matches elements whose attribute value starts with 'value'",
+        "c": "Matches elements with exact value",
+        "d": "Matches all elements"
+      },
+      "correct_answer": "b",
+      "explanation": "The [attr^=value] selector matches elements whose attribute value begins with the specified value."
+    },
+    {
+      "id": 71,
+      "category": "Clipping, Masking & Filters",
+      "question": "Which CSS property is used to clip an element to a basic shape?",
+      "options": {
+        "a": "clip-path",
+        "b": "mask",
+        "c": "filter",
+        "d": "box-shadow"
+      },
+      "correct_answer": "a",
+      "explanation": "The clip-path property creates a clipping region that sets what part of an element should be shown."
+    },
+    {
+      "id": 72,
+      "category": "Clipping, Masking & Filters",
+      "question": "What value of clip-path would create a circle shape?",
+      "options": {
+        "a": "polygon()",
+        "b": "circle()",
+        "c": "ellipse()",
+        "d": "rect()"
+      },
+      "correct_answer": "b",
+      "explanation": "The circle() function in clip-path creates a circular clipping region."
+    },
+    {
+      "id": 73,
+      "category": "Clipping, Masking & Filters",
+      "question": "Which CSS property is used to apply graphical effects like blur or brightness?",
+      "options": {
+        "a": "clip",
+        "b": "mask",
+        "c": "filter",
+        "d": "shadow"
+      },
+      "correct_answer": "c",
+      "explanation": "The filter property applies visual effects like blur, brightness, contrast, etc. to elements."
+    },
+    {
+      "id": 74,
+      "category": "Clipping, Masking & Filters",
+      "question": "How do you apply a blur effect using filters?",
+      "options": {
+        "a": "filter: blur(5px);",
+        "b": "filter: brightness(5px);",
+        "c": "shadow: blur(5px);",
+        "d": "mask: blur(5px);"
+      },
+      "correct_answer": "a",
+      "explanation": "The blur() function in the filter property applies a Gaussian blur to the element."
+    },
+    {
+      "id": 75,
+      "category": "Clipping, Masking & Filters",
+      "question": "Which CSS property is used to define an image as a mask?",
+      "options": {
+        "a": "clip",
+        "b": "mask-image",
+        "c": "filter-image",
+        "d": "shadow-image"
+      },
+      "correct_answer": "b",
+      "explanation": "The mask-image property defines an image to be used as a mask layer for an element."
+    },
+    {
+      "id": 76,
+      "category": "Modern CSS Features",
+      "question": "Which pseudo-element is used to customize the scrollbar track?",
+      "options": {
+        "a": "::-webkit-scrollbar-thumb",
+        "b": "::-webkit-scrollbar-track",
+        "c": "::scrollbar-track",
+        "d": "::-scrollbar-thumb"
+      },
+      "correct_answer": "b",
+      "explanation": "The ::-webkit-scrollbar-track pseudo-element customizes the scrollbar track appearance."
+    },
+    {
+      "id": 77,
+      "category": "Modern CSS Features",
+      "question": "What is the correct pseudo-element to customize the scrollbar thumb?",
+      "options": {
+        "a": "::-webkit-scrollbar-thumb",
+        "b": "::scrollbar-thumb",
+        "c": "::thumb",
+        "d": "::-scrollbar-track"
+      },
+      "correct_answer": "a",
+      "explanation": "The ::-webkit-scrollbar-thumb pseudo-element customizes the scrollbar thumb appearance."
+    },
+    {
+      "id": 78,
+      "category": "CSS Variables",
+      "question": "Where should CSS custom properties (variables) be declared for global scope?",
+      "options": {
+        "a": "In any selector",
+        "b": "In :root selector",
+        "c": "In body selector",
+        "d": "In html selector"
+      },
+      "correct_answer": "b",
+      "explanation": "CSS variables should be declared in :root selector for global scope."
+    },
+    {
+      "id": 79,
+      "category": "CSS Grid",
+      "question": "What is the purpose of grid-auto-flow property?",
+      "options": {
+        "a": "Controls grid item size",
+        "b": "Specifies grid direction",
+        "c": "Controls how auto-placed items are inserted in the grid",
+        "d": "Sets grid gap"
+      },
+      "correct_answer": "c",
+      "explanation": "grid-auto-flow controls how the auto-placement algorithm works."
+    },
+    {
+      "id": 80,
+      "category": "CSS Transforms",
+      "question": "Which transform function is used for 3D rotation around the X-axis?",
+      "options": {
+        "a": "rotate()",
+        "b": "rotateX()",
+        "c": "rotate3d()",
+        "d": "transform-x()"
+      },
+      "correct_answer": "b",
+      "explanation": "rotateX() function rotates an element around its X-axis in 3D space."
+    },
+    {
+      "id": 81,
+      "category": "CSS Animations",
+      "question": "How do you specify multiple animation properties in one declaration?",
+      "options": {
+        "a": "animation: name duration timing-function delay",
+        "b": "animation-set: name duration",
+        "c": "animate: name duration",
+        "d": "animation-group: name timing"
+      },
+      "correct_answer": "a",
+      "explanation": "The animation shorthand property can specify multiple animation properties in one declaration."
+    },
+    {
+      "id": 82,
+      "category": "CSS Flexbox",
+      "question": "What does flex-grow: 1 do?",
+      "options": {
+        "a": "Shrinks the element",
+        "b": "Makes element grow to fill available space",
+        "c": "Sets fixed width",
+        "d": "Centers the element"
+      },
+      "correct_answer": "b",
+      "explanation": "flex-grow: 1 allows the element to grow and fill available space in the flex container."
+    },
+    {
+      "id": 83,
+      "category": "CSS Grid",
+      "question": "What does fr unit represent in CSS Grid?",
+      "options": {
+        "a": "Fixed ratio",
+        "b": "Fractional unit",
+        "c": "Frame rate",
+        "d": "Free space"
+      },
+      "correct_answer": "b",
+      "explanation": "fr represents a fraction of the available space in the grid container."
+    },
+    {
+      "id": 84,
+      "category": "CSS Selectors",
+      "question": "What does the :nth-child(odd) selector do?",
+      "options": {
+        "a": "Selects even elements",
+        "b": "Selects odd elements",
+        "c": "Selects first element",
+        "d": "Selects last element"
+      },
+      "correct_answer": "b",
+      "explanation": "The :nth-child(odd) selector matches elements that are odd-numbered children."
+    },
+    {
+      "id": 85,
+      "category": "CSS Box Model",
+      "question": "What happens when margin: auto is applied?",
+      "options": {
+        "a": "Element centers horizontally",
+        "b": "Element centers vertically",
+        "c": "Element takes full width",
+        "d": "Nothing happens"
+      },
+      "correct_answer": "a",
+      "explanation": "margin: auto horizontally centers an element within its container if it has a width."
+    },
+    {
+      "id": 86,
+      "category": "CSS Performance",
+      "question": "Which selector has better performance?",
+      "options": {
+        "a": ".header .nav .list .item",
+        "b": ".nav-item",
+        "c": "#header nav li",
+        "d": "div > nav > ul > li"
+      },
+      "correct_answer": "b",
+      "explanation": "Shorter, single-class selectors are more performant as they require less matching."
+    },
+    {
+      "id": 87,
+      "category": "CSS Performance",
+      "question": "What is the impact of using !important?",
+      "options": {
+        "a": "Improves performance",
+        "b": "Makes maintenance difficult",
+        "c": "Reduces file size",
+        "d": "Speeds up rendering"
+      },
+      "correct_answer": "b",
+      "explanation": "Using !important makes CSS maintenance difficult and can lead to specificity wars."
+    },
+    {
+      "id": 88,
+      "category": "CSS Best Practices",
+      "question": "What is the recommended approach for organizing CSS?",
+      "options": {
+        "a": "Single large file",
+        "b": "Multiple files by component",
+        "c": "Inline styles",
+        "d": "Random order"
+      },
+      "correct_answer": "b",
+      "explanation": "Organizing CSS by components improves maintainability and reusability."
+    },
+    {
+      "id": 89,
+      "category": "CSS Best Practices",
+      "question": "Which naming convention is recommended for CSS classes?",
+      "options": {
+        "a": "BEM",
+        "b": "Random names",
+        "c": "Single letters",
+        "d": "All uppercase"
+      },
+      "correct_answer": "a",
+      "explanation": "BEM (Block Element Modifier) is a naming convention that creates reusable components."
+    },
+    {
+      "id": 90,
+      "category": "Modern Layout",
+      "question": "What is CSS Subgrid?",
+      "options": {
+        "a": "A type of flexbox",
+        "b": "Nested grid that inherits parent tracks",
+        "c": "A background property",
+        "d": "A border style"
+      },
+      "correct_answer": "b",
+      "explanation": "Subgrid allows nested grids to inherit track sizes from their parent grid."
+    },
+    {
+      "id": 91,
+      "category": "Modern Layout",
+      "question": "What is the purpose of gap property in Flexbox?",
+      "options": {
+        "a": "Sets margin",
+        "b": "Creates space between flex items",
+        "c": "Adds padding",
+        "d": "Controls item size"
+      },
+      "correct_answer": "b",
+      "explanation": "The gap property creates consistent spacing between flex items."
+    },
+    {
+      "id": 92,
+      "category": "CSS Variables",
+      "question": "How do you use a CSS variable with fallback value?",
+      "options": {
+        "a": "var(--color, black)",
+        "b": "var(--color || black)",
+        "c": "var(--color default black)",
+        "d": "--color: black"
+      },
+      "correct_answer": "a",
+      "explanation": "Use a comma to specify a fallback value in var() function."
+    },
+    {
+      "id": 93,
+      "category": "CSS Grid",
+      "question": "What is the purpose of minmax() in Grid?",
+      "options": {
+        "a": "Sets fixed size",
+        "b": "Defines minimum and maximum size range",
+        "c": "Controls grid gap",
+        "d": "Sets grid position"
+      },
+      "correct_answer": "b",
+      "explanation": "minmax() sets a size range between minimum and maximum values for grid tracks."
+    },
+    {
+      "id": 94,
+      "category": "CSS Animations",
+      "question": "What property controls animation play state?",
+      "options": {
+        "a": "animation-play",
+        "b": "animation-state",
+        "c": "animation-play-state",
+        "d": "play-state"
+      },
+      "correct_answer": "c",
+      "explanation": "animation-play-state controls whether animation is running or paused."
+    },
+    {
+      "id": 95,
+      "category": "CSS Transforms",
+      "question": "Which transform property preserves 3D transformations?",
+      "options": {
+        "a": "transform-style: preserve-3d",
+        "b": "transform: preserve",
+        "c": "transform-3d: preserve",
+        "d": "preserve-3d: true"
+      },
+      "correct_answer": "a",
+      "explanation": "transform-style: preserve-3d maintains 3D transformations in child elements."
+    },
+    {
+      "id": 96,
+      "category": "CSS Preprocessors",
+      "question": "Which is a popular CSS preprocessor?",
+      "options": {
+        "a": "SASS",
+        "b": "HTML",
+        "c": "JavaScript",
+        "d": "PHP"
+      },
+      "correct_answer": "a",
+      "explanation": "SASS (Syntactically Awesome Style Sheets) is a popular CSS preprocessor."
+    },
+    {
+      "id": 97,
+      "category": "CSS Preprocessors",
+      "question": "What is the file extension for SCSS files?",
+      "options": {
+        "a": ".css",
+        "b": ".scss",
+        "c": ".style",
+        "d": ".sass"
+      },
+      "correct_answer": "b",
+      "explanation": ".scss is the file extension for SCSS (Sassy CSS) files."
+    },
+    {
+      "id": 98,
+      "category": "CSS-in-JS",
+      "question": "What is a benefit of CSS-in-JS?",
+      "options": {
+        "a": "Scoped styles",
+        "b": "Smaller file size",
+        "c": "Faster loading",
+        "d": "Better browser support"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS provides scoped styles, preventing global namespace conflicts."
+    },
+    {
+      "id": 99,
+      "category": "CSS-in-JS",
+      "question": "Which is a popular CSS-in-JS library?",
+      "options": {
+        "a": "Styled-components",
+        "b": "Bootstrap",
+        "c": "Tailwind",
+        "d": "Foundation"
+      },
+      "correct_answer": "a",
+      "explanation": "Styled-components is a popular CSS-in-JS library for React applications."
+    },
+    {
+      "id": 100,
+      "category": "Modern CSS Features",
+      "question": "What is the purpose of :is() pseudo-class?",
+      "options": {
+        "a": "Matches any selector in list",
+        "b": "Checks if element exists",
+        "c": "Validates input",
+        "d": "Creates animation"
+      },
+      "correct_answer": "a",
+      "explanation": "The :is() pseudo-class takes a list of selectors and matches any of them."
+    },
+    {
+      "id": 101,
+      "category": "Modern CSS Features",
+      "question": "What does the :where() pseudo-class do?",
+      "options": {
+        "a": "Same as :is() but zero specificity",
+        "b": "Finds element location",
+        "c": "Sets element position",
+        "d": "Creates grid area"
+      },
+      "correct_answer": "a",
+      "explanation": ":where() works like :is() but always has zero specificity."
+    },
+    {
+      "id": 102,
+      "category": "CSS Grid",
+      "question": "What is the purpose of grid-template-areas?",
+      "options": {
+        "a": "Names grid cells",
+        "b": "Sets grid size",
+        "c": "Controls grid flow",
+        "d": "Defines grid gaps"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-template-areas assigns names to grid cells for easier layout."
+    },
+    {
+      "id": 103,
+      "category": "CSS Flexbox",
+      "question": "What does align-content do in Flexbox?",
+      "options": {
+        "a": "Aligns items horizontally",
+        "b": "Aligns wrapped lines",
+        "c": "Centers single item",
+        "d": "Sets item order"
+      },
+      "correct_answer": "b",
+      "explanation": "align-content aligns flex lines when there is extra space in the cross-axis."
+    },
+    {
+      "id": 104,
+      "category": "CSS Variables",
+      "question": "Can CSS variables be scoped to media queries?",
+      "options": {
+        "a": "Yes",
+        "b": "No",
+        "c": "Only in SASS",
+        "d": "Only with JavaScript"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS variables can be redefined within media queries for responsive designs."
+    },
+    {
+      "id": 105,
+      "category": "CSS Performance",
+      "question": "Which has better performance for animations?",
+      "options": {
+        "a": "transform",
+        "b": "margin",
+        "c": "top/left",
+        "d": "position"
+      },
+      "correct_answer": "a",
+      "explanation": "transform properties are optimized for animations and don't trigger layout recalculation."
+    },
+    {
+      "id": 106,
+      "category": "CSS Frameworks",
+      "question": "Which CSS framework uses utility classes extensively?",
+      "options": {
+        "a": "Bootstrap",
+        "b": "Tailwind",
+        "c": "Foundation",
+        "d": "Bulma"
+      },
+      "correct_answer": "b",
+      "explanation": "Tailwind CSS is known for its utility-first approach to styling."
+    },
+    {
+      "id": 107,
+      "category": "CSS Frameworks",
+      "question": "What is a benefit of using CSS frameworks?",
+      "options": {
+        "a": "Rapid development",
+        "b": "Better performance",
+        "c": "Smaller file size",
+        "d": "More browser support"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS frameworks enable rapid development with pre-built components and styles."
+    },
+    {
+      "id": 108,
+      "category": "CSS Accessibility",
+      "question": "Which property hides content visually but keeps it accessible to screen readers?",
+      "options": {
+        "a": "display: none",
+        "b": "visibility: hidden",
+        "c": "clip-path: inset(100%)",
+        "d": "opacity: 0"
+      },
+      "correct_answer": "c",
+      "explanation": "Using clip-path: inset(100%) hides content visually while keeping it accessible to screen readers."
+    },
+    {
+      "id": 109,
+      "category": "CSS Accessibility",
+      "question": "What is the recommended minimum contrast ratio for text?",
+      "options": {
+        "a": "2:1",
+        "b": "3:1",
+        "c": "4.5:1",
+        "d": "1:1"
+      },
+      "correct_answer": "c",
+      "explanation": "WCAG guidelines recommend a minimum contrast ratio of 4.5:1 for normal text."
+    },
+    {
+      "id": 110,
+      "category": "CSS Architecture",
+      "question": "What is the main principle of OOCSS?",
+      "options": {
+        "a": "Separation of structure and skin",
+        "b": "Using only classes",
+        "c": "Avoiding IDs",
+        "d": "Using preprocessors"
+      },
+      "correct_answer": "a",
+      "explanation": "Object-Oriented CSS (OOCSS) emphasizes separation of structure and skin for reusability."
+    },
+    {
+      "id": 111,
+      "category": "CSS Architecture",
+      "question": "What does SMACSS stand for?",
+      "options": {
+        "a": "Scalable and Modular Architecture for CSS",
+        "b": "Simple Modules and CSS Styles",
+        "c": "Style Modules and CSS Sheets",
+        "d": "Structured Module Architecture CSS"
+      },
+      "correct_answer": "a",
+      "explanation": "SMACSS (Scalable and Modular Architecture for CSS) is a style guide for CSS organization."
+    },
+    {
+      "id": 112,
+      "category": "Modern CSS Features",
+      "question": "What is the purpose of container queries?",
+      "options": {
+        "a": "Style based on parent size",
+        "b": "Query DOM elements",
+        "c": "Create containers",
+        "d": "Set container width"
+      },
+      "correct_answer": "a",
+      "explanation": "Container queries allow styling based on the container's size rather than viewport size."
+    },
+    {
+      "id": 113,
+      "category": "Modern CSS Features",
+      "question": "What is the :has() selector used for?",
+      "options": {
+        "a": "Parent selector",
+        "b": "Child selector",
+        "c": "Sibling selector",
+        "d": "Descendant selector"
+      },
+      "correct_answer": "a",
+      "explanation": "The :has() selector allows selecting elements based on their children or subsequent elements."
+    },
+    {
+      "id": 114,
+      "category": "CSS Performance",
+      "question": "Which selector is most performant?",
+      "options": {
+        "a": "ID selector",
+        "b": "Class selector",
+        "c": "Tag selector",
+        "d": "Universal selector"
+      },
+      "correct_answer": "a",
+      "explanation": "ID selectors are the most performant as they target a unique element."
+    },
+    {
+      "id": 115,
+      "category": "CSS Performance",
+      "question": "What is the benefit of CSS containment?",
+      "options": {
+        "a": "Improves rendering performance",
+        "b": "Reduces file size",
+        "c": "Adds animations",
+        "d": "Changes layout"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS containment improves performance by isolating parts of the page from the rest of the document."
+    },
+    {
+      "id": 116,
+      "category": "CSS Custom Properties",
+      "question": "How do you define a CSS custom property?",
+      "options": {
+        "a": "--property-name: value;",
+        "b": "$property-name: value;",
+        "c": "@property-name: value;",
+        "d": "property-name = value;"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS custom properties (variables) are defined using -- prefix."
+    },
+    {
+      "id": 117,
+      "category": "CSS Custom Properties",
+      "question": "What is the scope of a CSS custom property defined in :root?",
+      "options": {
+        "a": "Global",
+        "b": "Local",
+        "c": "Component",
+        "d": "Module"
+      },
+      "correct_answer": "a",
+      "explanation": "Custom properties defined in :root are globally available throughout the document."
+    },
+    {
+      "id": 118,
+      "category": "CSS Houdini",
+      "question": "What is CSS Houdini?",
+      "options": {
+        "a": "Low-level CSS API",
+        "b": "CSS Framework",
+        "c": "Preprocessor",
+        "d": "CSS Library"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Houdini is a set of low-level APIs that expose parts of the CSS engine."
+    },
+    {
+      "id": 119,
+      "category": "CSS Houdini",
+      "question": "What can Paint API in Houdini be used for?",
+      "options": {
+        "a": "Custom painting on canvas",
+        "b": "Image editing",
+        "c": "Text effects",
+        "d": "Animation"
+      },
+      "correct_answer": "a",
+      "explanation": "Paint API allows developers to create custom painting effects using JavaScript."
+    },
+    {
+      "id": 120,
+      "category": "CSS Modules",
+      "question": "What problem do CSS Modules solve?",
+      "options": {
+        "a": "CSS scope isolation",
+        "b": "Browser compatibility",
+        "c": "Performance issues",
+        "d": "Animation complexity"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Modules solve the problem of global scope by making CSS classes local by default."
+    },
+    {
+      "id": 121,
+      "category": "CSS Modules",
+      "question": "How are CSS Module class names typically used in React?",
+      "options": {
+        "a": "styles.className",
+        "b": "className.styles",
+        "c": "css.className",
+        "d": "module.className"
+      },
+      "correct_answer": "a",
+      "explanation": "In React, CSS Module classes are typically accessed using the styles object."
+    },
+    {
+      "id": 122,
+      "category": "Modern CSS",
+      "question": "What is the @layer rule used for?",
+      "options": {
+        "a": "Managing cascade layers",
+        "b": "Creating animations",
+        "c": "Defining media queries",
+        "d": "Setting backgrounds"
+      },
+      "correct_answer": "a",
+      "explanation": "@layer creates cascade layers to manage specificity in stylesheets."
+    },
+    {
+      "id": 123,
+      "category": "Modern CSS",
+      "question": "What is the purpose of @property?",
+      "options": {
+        "a": "Define custom properties",
+        "b": "Set element properties",
+        "c": "Create animations",
+        "d": "Define media queries"
+      },
+      "correct_answer": "a",
+      "explanation": "@property allows defining custom properties with types, inheritance, and initial values."
+    },
+    {
+      "id": 124,
+      "category": "CSS Architecture",
+      "question": "What is Atomic CSS?",
+      "options": {
+        "a": "Single-purpose classes",
+        "b": "Component-based CSS",
+        "c": "Global styles",
+        "d": "CSS preprocessor"
+      },
+      "correct_answer": "a",
+      "explanation": "Atomic CSS is an approach using small, single-purpose utility classes."
+    },
+    {
+      "id": 125,
+      "category": "CSS Architecture",
+      "question": "What is a benefit of CSS-in-JS?",
+      "options": {
+        "a": "Dynamic styling",
+        "b": "Smaller file size",
+        "c": "Better performance",
+        "d": "Simpler syntax"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS enables dynamic styling based on component props and state."
+    },
+    {
+      "id": 126,
+      "category": "CSS Optimization",
+      "question": "Which technique reduces CSS file size?",
+      "options": {
+        "a": "Minification",
+        "b": "Concatenation",
+        "c": "Compression",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Minification, concatenation, and compression all help reduce CSS file size."
+    },
+    {
+      "id": 127,
+      "category": "CSS Optimization",
+      "question": "What is the benefit of CSS code splitting?",
+      "options": {
+        "a": "Faster initial load",
+        "b": "Better organization",
+        "c": "Easier debugging",
+        "d": "Improved specificity"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS code splitting allows loading only necessary styles, improving initial load time."
+    },
+    {
+      "id": 128,
+      "category": "Browser Support",
+      "question": "What is the purpose of @supports?",
+      "options": {
+        "a": "Feature detection",
+        "b": "Browser detection",
+        "c": "Version detection",
+        "d": "OS detection"
+      },
+      "correct_answer": "a",
+      "explanation": "@supports checks if a browser supports specific CSS features."
+    },
+    {
+      "id": 129,
+      "category": "Browser Support",
+      "question": "What is a CSS fallback?",
+      "options": {
+        "a": "Alternative style when feature unsupported",
+        "b": "Default style",
+        "c": "Backup file",
+        "d": "Error handling"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS fallbacks provide alternative styles when a feature is not supported."
+    },
+    {
+      "id": 130,
+      "category": "Advanced Selectors",
+      "question": "What does :not() pseudo-class do?",
+      "options": {
+        "a": "Negates selector",
+        "b": "Selects everything",
+        "c": "Removes element",
+        "d": "Hides element"
+      },
+      "correct_answer": "a",
+      "explanation": "The :not() pseudo-class selects elements that do not match the selector."
+    },
+    {
+      "id": 131,
+      "category": "Advanced Selectors",
+      "question": "What is the difference between > and + combinators?",
+      "options": {
+        "a": "Direct child vs adjacent sibling",
+        "b": "Parent vs child",
+        "c": "Sibling vs descendant",
+        "d": "First vs last child"
+      },
+      "correct_answer": "a",
+      "explanation": "> selects direct children, + selects adjacent siblings."
+    },
+    {
+      "id": 132,
+      "category": "CSS Grid",
+      "question": "What is grid-auto-flow: dense?",
+      "options": {
+        "a": "Fills in gaps automatically",
+        "b": "Creates dense layout",
+        "c": "Compresses grid",
+        "d": "Reduces spacing"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-auto-flow: dense attempts to fill in holes earlier in the grid."
+    },
+    {
+      "id": 133,
+      "category": "CSS Flexbox",
+      "question": "What does flex-basis define?",
+      "options": {
+        "a": "Initial main size",
+        "b": "Final size",
+        "c": "Minimum size",
+        "d": "Maximum size"
+      },
+      "correct_answer": "a",
+      "explanation": "flex-basis sets the initial main size of a flex item."
+    },
+    {
+      "id": 134,
+      "category": "CSS Variables",
+      "question": "Can CSS variables be used in media queries?",
+      "options": {
+        "a": "No",
+        "b": "Yes, in values only",
+        "c": "Yes, everywhere",
+        "d": "Only with preprocessors"
+      },
+      "correct_answer": "b",
+      "explanation": "CSS variables can be used in media query values but not in media query conditions."
+    },
+    {
+      "id": 135,
+      "category": "CSS Performance",
+      "question": "What causes layout thrashing?",
+      "options": {
+        "a": "Reading then writing layout properties",
+        "b": "Using CSS variables",
+        "c": "Adding classes",
+        "d": "Using flexbox"
+      },
+      "correct_answer": "a",
+      "explanation": "Layout thrashing occurs when repeatedly reading and writing layout properties."
+    },
+    {
+      "id": 136,
+      "category": "CSS Animations",
+      "question": "What is the purpose of animation-fill-mode?",
+      "options": {
+        "a": "Sets styles before/after animation",
+        "b": "Controls animation speed",
+        "c": "Sets animation direction",
+        "d": "Defines keyframes"
+      },
+      "correct_answer": "a",
+      "explanation": "animation-fill-mode determines how styles are applied before and after the animation."
+    },
+    {
+      "id": 137,
+      "category": "CSS Animations",
+      "question": "Which value makes animation run backwards?",
+      "options": {
+        "a": "reverse",
+        "b": "alternate",
+        "c": "backwards",
+        "d": "inverse"
+      },
+      "correct_answer": "a",
+      "explanation": "animation-direction: reverse makes the animation run backwards."
+    },
+    {
+      "id": 138,
+      "category": "CSS Transforms",
+      "question": "What does transform-origin control?",
+      "options": {
+        "a": "Point around which transform occurs",
+        "b": "Starting position",
+        "c": "End position",
+        "d": "Transform type"
+      },
+      "correct_answer": "a",
+      "explanation": "transform-origin sets the point around which a transformation is applied."
+    },
+    {
+      "id": 139,
+      "category": "CSS Transforms",
+      "question": "Which transform function creates 3D perspective?",
+      "options": {
+        "a": "perspective()",
+        "b": "rotate3d()",
+        "c": "translate3d()",
+        "d": "scale3d()"
+      },
+      "correct_answer": "a",
+      "explanation": "The perspective() function sets the distance between the user and the z=0 plane."
+    },
+    {
+      "id": 140,
+      "category": "Modern Layout",
+      "question": "What is the purpose of aspect-ratio property?",
+      "options": {
+        "a": "Maintains width/height ratio",
+        "b": "Sets element width",
+        "c": "Controls image size",
+        "d": "Defines grid ratio"
+      },
+      "correct_answer": "a",
+      "explanation": "aspect-ratio maintains a consistent width-to-height ratio for elements."
+    },
+    {
+      "id": 141,
+      "category": "Modern Layout",
+      "question": "What is the content-visibility property used for?",
+      "options": {
+        "a": "Skip rendering off-screen content",
+        "b": "Hide content",
+        "c": "Show content",
+        "d": "Animate content"
+      },
+      "correct_answer": "a",
+      "explanation": "content-visibility allows browsers to skip rendering off-screen content for better performance."
+    },
+    {
+      "id": 142,
+      "category": "CSS Grid",
+      "question": "What is the purpose of grid-template-areas?",
+      "options": {
+        "a": "Visual layout definition",
+        "b": "Grid size setting",
+        "c": "Item placement",
+        "d": "Grid spacing"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-template-areas provides a visual way to define grid layouts using named areas."
+    },
+    {
+      "id": 143,
+      "category": "CSS Flexbox",
+      "question": "What does align-self do?",
+      "options": {
+        "a": "Overrides align-items for item",
+        "b": "Aligns all items",
+        "c": "Sets container alignment",
+        "d": "Controls main axis"
+      },
+      "correct_answer": "a",
+      "explanation": "align-self overrides the container's align-items value for a specific flex item."
+    },
+    {
+      "id": 144,
+      "category": "CSS Variables",
+      "question": "How do you update CSS variables with JavaScript?",
+      "options": {
+        "a": "setProperty('--var', value)",
+        "b": "style.var = value",
+        "c": "setCssVar(value)",
+        "d": "updateVar(value)"
+      },
+      "correct_answer": "a",
+      "explanation": "Use setProperty() method to update CSS custom properties with JavaScript."
+    },
+    {
+      "id": 145,
+      "category": "CSS Performance",
+      "question": "Which property triggers layout recalculation?",
+      "options": {
+        "a": "width",
+        "b": "color",
+        "c": "background",
+        "d": "opacity"
+      },
+      "correct_answer": "a",
+      "explanation": "Changing width triggers layout recalculation, while color, background, and opacity don't."
+    },
+    {
+      "id": 146,
+      "category": "CSS Preprocessors",
+      "question": "What is a mixin in SASS?",
+      "options": {
+        "a": "Reusable styles",
+        "b": "Variable declaration",
+        "c": "Import statement",
+        "d": "Color function"
+      },
+      "correct_answer": "a",
+      "explanation": "A mixin in SASS allows you to define reusable styles that can be included in multiple selectors."
+    },
+    {
+      "id": 147,
+      "category": "CSS Preprocessors",
+      "question": "What is the purpose of nesting in SASS?",
+      "options": {
+        "a": "Write less code",
+        "b": "Better performance",
+        "c": "Browser compatibility",
+        "d": "File organization"
+      },
+      "correct_answer": "a",
+      "explanation": "Nesting in SASS allows writing less code by nesting selectors within each other."
+    },
+    {
+      "id": 148,
+      "category": "CSS Methodologies",
+      "question": "What does ITCSS stand for?",
+      "options": {
+        "a": "Inverted Triangle CSS",
+        "b": "Interactive CSS",
+        "c": "Internal CSS",
+        "d": "Integrated CSS"
+      },
+      "correct_answer": "a",
+      "explanation": "ITCSS (Inverted Triangle CSS) is a methodology for organizing CSS by specificity."
+    },
+    {
+      "id": 149,
+      "category": "CSS Methodologies",
+      "question": "What is a key principle of BEM methodology?",
+      "options": {
+        "a": "Block-Element-Modifier naming",
+        "b": "Global styles",
+        "c": "Inline styles",
+        "d": "Tag selectors"
+      },
+      "correct_answer": "a",
+      "explanation": "BEM methodology uses Block, Element, and Modifier naming convention for CSS classes."
+    },
+    {
+      "id": 150,
+      "category": "Browser Compatibility",
+      "question": "What is a CSS vendor prefix?",
+      "options": {
+        "a": "Browser-specific prefix",
+        "b": "Framework prefix",
+        "c": "Library prefix",
+        "d": "Custom prefix"
+      },
+      "correct_answer": "a",
+      "explanation": "Vendor prefixes (-webkit-, -moz-, etc.) are used for browser-specific CSS implementations."
+    },
+    {
+      "id": 151,
+      "category": "Browser Compatibility",
+      "question": "Which tool can automatically add vendor prefixes?",
+      "options": {
+        "a": "Autoprefixer",
+        "b": "Babel",
+        "c": "Webpack",
+        "d": "ESLint"
+      },
+      "correct_answer": "a",
+      "explanation": "Autoprefixer is a tool that automatically adds vendor prefixes to CSS properties."
+    },
+    {
+      "id": 152,
+      "category": "CSS Architecture",
+      "question": "What is the purpose of CSS reset?",
+      "options": {
+        "a": "Normalize browser styles",
+        "b": "Improve performance",
+        "c": "Add animations",
+        "d": "Create layouts"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS reset normalizes default styles across different browsers."
+    },
+    {
+      "id": 153,
+      "category": "CSS Architecture",
+      "question": "What is the Single Responsibility Principle in CSS?",
+      "options": {
+        "a": "One purpose per class",
+        "b": "One file per project",
+        "c": "One selector per rule",
+        "d": "One color per element"
+      },
+      "correct_answer": "a",
+      "explanation": "The Single Responsibility Principle suggests each class should have one specific purpose."
+    },
+    {
+      "id": 154,
+      "category": "Modern CSS",
+      "question": "What is logical property margin-inline?",
+      "options": {
+        "a": "Margin based on writing mode",
+        "b": "Regular margin",
+        "c": "Vertical margin",
+        "d": "Horizontal margin"
+      },
+      "correct_answer": "a",
+      "explanation": "margin-inline sets margins based on the writing mode rather than physical directions."
+    },
+    {
+      "id": 155,
+      "category": "Modern CSS",
+      "question": "What is the :focus-visible pseudo-class?",
+      "options": {
+        "a": "Shows focus when keyboard used",
+        "b": "Always shows focus",
+        "c": "Never shows focus",
+        "d": "Shows focus on hover"
+      },
+      "correct_answer": "a",
+      "explanation": ":focus-visible shows focus indicators only when using keyboard navigation."
+    },
+    {
+      "id": 156,
+      "category": "CSS Testing",
+      "question": "Which tool can test CSS visual regression?",
+      "options": {
+        "a": "BackstopJS",
+        "b": "Jest",
+        "c": "Mocha",
+        "d": "Jasmine"
+      },
+      "correct_answer": "a",
+      "explanation": "BackstopJS is a tool for visual regression testing of CSS changes."
+    },
+    {
+      "id": 157,
+      "category": "CSS Testing",
+      "question": "What does CSS lint check for?",
+      "options": {
+        "a": "Style guide violations",
+        "b": "JavaScript errors",
+        "c": "HTML errors",
+        "d": "Server errors"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS lint checks for style guide violations and potential errors in CSS code."
+    },
+    {
+      "id": 158,
+      "category": "CSS Debugging",
+      "question": "Which browser tool helps inspect CSS?",
+      "options": {
+        "a": "Developer Tools",
+        "b": "Console",
+        "c": "Terminal",
+        "d": "Text Editor"
+      },
+      "correct_answer": "a",
+      "explanation": "Browser Developer Tools allow inspection and debugging of CSS styles."
+    },
+    {
+      "id": 159,
+      "category": "CSS Debugging",
+      "question": "What helps identify unused CSS?",
+      "options": {
+        "a": "Coverage tool",
+        "b": "Console log",
+        "c": "Network tab",
+        "d": "Performance tab"
+      },
+      "correct_answer": "a",
+      "explanation": "The Coverage tool in Developer Tools helps identify unused CSS rules."
+    },
+    {
+      "id": 160,
+      "category": "Advanced Features",
+      "question": "What is CSS containment used for?",
+      "options": {
+        "a": "Performance optimization",
+        "b": "Layout design",
+        "c": "Animation effects",
+        "d": "Color management"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS containment is used for performance optimization by isolating parts of the page."
+    },
+    {
+      "id": 161,
+      "category": "Advanced Features",
+      "question": "What is the purpose of CSS Scroll Snap?",
+      "options": {
+        "a": "Create snap points for scrolling",
+        "b": "Prevent scrolling",
+        "c": "Add scroll animations",
+        "d": "Hide scroll bar"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Scroll Snap creates precise snap points for scroll positions."
+    },
+    {
+      "id": 162,
+      "category": "CSS Grid",
+      "question": "What is auto-fit in CSS Grid?",
+      "options": {
+        "a": "Fits columns to container",
+        "b": "Automatic height",
+        "c": "Fixed width",
+        "d": "Content alignment"
+      },
+      "correct_answer": "a",
+      "explanation": "auto-fit in Grid fits as many columns as possible in the container."
+    },
+    {
+      "id": 163,
+      "category": "CSS Flexbox",
+      "question": "What is flex-flow shorthand for?",
+      "options": {
+        "a": "flex-direction and flex-wrap",
+        "b": "flex-grow and flex-shrink",
+        "c": "flex-basis and flex-grow",
+        "d": "flex-wrap and flex-basis"
+      },
+      "correct_answer": "a",
+      "explanation": "flex-flow is a shorthand for flex-direction and flex-wrap properties."
+    },
+    {
+      "id": 164,
+      "category": "CSS Variables",
+      "question": "What is the scope of :root variables?",
+      "options": {
+        "a": "Global document",
+        "b": "Current element",
+        "c": "Parent element",
+        "d": "Sibling elements"
+      },
+      "correct_answer": "a",
+      "explanation": "Variables defined in :root are accessible throughout the entire document."
+    },
+    {
+      "id": 165,
+      "category": "CSS Performance",
+      "question": "What affects CSS selector performance?",
+      "options": {
+        "a": "Specificity and complexity",
+        "b": "Color values",
+        "c": "Font sizes",
+        "d": "Margin values"
+      },
+      "correct_answer": "a",
+      "explanation": "Selector specificity and complexity can impact CSS performance."
+    },
+    {
+      "id": 166,
+      "category": "CSS Best Practices",
+      "question": "What is a benefit of CSS naming conventions?",
+      "options": {
+        "a": "Improved maintainability",
+        "b": "Faster rendering",
+        "c": "Better compression",
+        "d": "Reduced file size"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS naming conventions improve code maintainability and readability."
+    },
+    {
+      "id": 167,
+      "category": "CSS Best Practices",
+      "question": "Why avoid using !important?",
+      "options": {
+        "a": "Makes specificity hard to manage",
+        "b": "Increases file size",
+        "c": "Slows down rendering",
+        "d": "Causes browser errors"
+      },
+      "correct_answer": "a",
+      "explanation": "Using !important makes CSS specificity harder to manage and maintain."
+    },
+    {
+      "id": 168,
+      "category": "Modern Features",
+      "question": "What is the :has() selector used for?",
+      "options": {
+        "a": "Parent matching",
+        "b": "Child selection",
+        "c": "Element counting",
+        "d": "Style inheritance"
+      },
+      "correct_answer": "a",
+      "explanation": "The :has() selector allows selecting elements based on their descendants."
+    },
+    {
+      "id": 169,
+      "category": "Modern Features",
+      "question": "What are CSS Custom Properties?",
+      "options": {
+        "a": "Dynamic variables",
+        "b": "Static values",
+        "c": "Fixed properties",
+        "d": "Browser settings"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Custom Properties are dynamic variables that can be updated at runtime."
+    },
+    {
+      "id": 170,
+      "category": "Cross-browser Compatibility",
+      "question": "What is feature detection?",
+      "options": {
+        "a": "Checking if feature is supported",
+        "b": "Browser identification",
+        "c": "Version checking",
+        "d": "OS detection"
+      },
+      "correct_answer": "a",
+      "explanation": "Feature detection checks if a CSS feature is supported by the browser."
+    },
+    {
+      "id": 171,
+      "category": "Cross-browser Compatibility",
+      "question": "What is a CSS fallback?",
+      "options": {
+        "a": "Alternative style",
+        "b": "Error message",
+        "c": "Browser warning",
+        "d": "Loading screen"
+      },
+      "correct_answer": "a",
+      "explanation": "A CSS fallback provides alternative styling when a feature isn't supported."
+    },
+    {
+      "id": 172,
+      "category": "CSS Grid",
+      "question": "What is grid-auto-rows?",
+      "options": {
+        "a": "Sets size of implicit rows",
+        "b": "Automatic grid creation",
+        "c": "Row alignment",
+        "d": "Row spacing"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-auto-rows sets the size of automatically generated grid rows."
+    },
+    {
+      "id": 173,
+      "category": "CSS Flexbox",
+      "question": "What is the default flex-direction?",
+      "options": {
+        "a": "row",
+        "b": "column",
+        "c": "row-reverse",
+        "d": "column-reverse"
+      },
+      "correct_answer": "a",
+      "explanation": "The default flex-direction is row, displaying items horizontally."
+    },
+    {
+      "id": 174,
+      "category": "CSS Variables",
+      "question": "How to check if CSS variables are supported?",
+      "options": {
+        "a": "@supports (--var: 0)",
+        "b": "if(cssVar)",
+        "c": "checkSupport()",
+        "d": "isSupported()"
+      },
+      "correct_answer": "a",
+      "explanation": "Use @supports to check if CSS Custom Properties are supported."
+    },
+    {
+      "id": 175,
+      "category": "CSS Performance",
+      "question": "What improves CSS performance?",
+      "options": {
+        "a": "Reducing selector complexity",
+        "b": "Adding comments",
+        "c": "Using !important",
+        "d": "Inline styles"
+      },
+      "correct_answer": "a",
+      "explanation": "Reducing selector complexity improves CSS parsing and rendering performance."
+    },
+    {
+      "id": 176,
+      "category": "CSS Animations",
+      "question": "What is the purpose of animation-iteration-count?",
+      "options": {
+        "a": "Number of times animation plays",
+        "b": "Animation speed",
+        "c": "Animation delay",
+        "d": "Animation direction"
+      },
+      "correct_answer": "a",
+      "explanation": "animation-iteration-count specifies how many times an animation should run."
+    },
+    {
+      "id": 177,
+      "category": "CSS Animations",
+      "question": "What does animation-play-state do?",
+      "options": {
+        "a": "Pauses/plays animation",
+        "b": "Sets animation speed",
+        "c": "Controls direction",
+        "d": "Sets duration"
+      },
+      "correct_answer": "a",
+      "explanation": "animation-play-state pauses or resumes an animation."
+    },
+    {
+      "id": 178,
+      "category": "CSS Transitions",
+      "question": "What is transition-timing-function?",
+      "options": {
+        "a": "Controls speed curve",
+        "b": "Sets duration",
+        "c": "Defines delay",
+        "d": "Sets property"
+      },
+      "correct_answer": "a",
+      "explanation": "transition-timing-function controls the speed curve of the transition."
+    },
+    {
+      "id": 179,
+      "category": "CSS Transitions",
+      "question": "Which is not a valid timing function?",
+      "options": {
+        "a": "smooth",
+        "b": "ease-in",
+        "c": "linear",
+        "d": "ease-out"
+      },
+      "correct_answer": "a",
+      "explanation": "'smooth' is not a valid CSS timing function."
+    },
+    {
+      "id": 180,
+      "category": "Modern Layout",
+      "question": "What is CSS Subgrid?",
+      "options": {
+        "a": "Inherits parent grid tracks",
+        "b": "Nested grid",
+        "c": "Mini grid",
+        "d": "Grid template"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Subgrid allows grid items to inherit track sizing from parent grid."
+    },
+    {
+      "id": 181,
+      "category": "Modern Layout",
+      "question": "What is the gap property?",
+      "options": {
+        "a": "Space between grid/flex items",
+        "b": "Element spacing",
+        "c": "Margin setting",
+        "d": "Padding value"
+      },
+      "correct_answer": "a",
+      "explanation": "gap property sets spacing between grid or flex items."
+    },
+    {
+      "id": 182,
+      "category": "CSS Grid",
+      "question": "What is grid-template-areas used for?",
+      "options": {
+        "a": "Visual grid layout",
+        "b": "Grid sizing",
+        "c": "Grid spacing",
+        "d": "Grid alignment"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-template-areas provides a visual way to define grid layouts."
+    },
+    {
+      "id": 183,
+      "category": "CSS Flexbox",
+      "question": "What does flex-wrap: wrap-reverse do?",
+      "options": {
+        "a": "Wraps items in reverse",
+        "b": "Reverses item order",
+        "c": "No wrapping",
+        "d": "Normal wrapping"
+      },
+      "correct_answer": "a",
+      "explanation": "flex-wrap: wrap-reverse wraps flex items in reverse order."
+    },
+    {
+      "id": 184,
+      "category": "CSS Variables",
+      "question": "How to use CSS variables in calc()?",
+      "options": {
+        "a": "calc(var(--size) * 2)",
+        "b": "calc(--size * 2)",
+        "c": "calc($size * 2)",
+        "d": "calc(@size * 2)"
+      },
+      "correct_answer": "a",
+      "explanation": "Use var() function to reference CSS variables in calc()."
+    },
+    {
+      "id": 185,
+      "category": "CSS Performance",
+      "question": "What causes reflow?",
+      "options": {
+        "a": "Layout changes",
+        "b": "Color changes",
+        "c": "Text changes",
+        "d": "Opacity changes"
+      },
+      "correct_answer": "a",
+      "explanation": "Changes to layout properties cause reflow/layout recalculation."
+    },
+    {
+      "id": 186,
+      "category": "CSS Architecture",
+      "question": "What is the purpose of CSS Modules?",
+      "options": {
+        "a": "Local scope for styles",
+        "b": "Global styles",
+        "c": "Animation modules",
+        "d": "Layout templates"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Modules provide local scope for CSS classes to avoid naming conflicts."
+    },
+    {
+      "id": 187,
+      "category": "CSS Architecture",
+      "question": "What is a benefit of CSS-in-JS?",
+      "options": {
+        "a": "Dynamic styling with props",
+        "b": "Smaller file size",
+        "c": "Faster loading",
+        "d": "Better browser support"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS allows dynamic styling based on component props and state."
+    },
+    {
+      "id": 188,
+      "category": "CSS Optimization",
+      "question": "What is tree shaking in CSS?",
+      "options": {
+        "a": "Removing unused styles",
+        "b": "Adding animations",
+        "c": "Organizing code",
+        "d": "Creating layouts"
+      },
+      "correct_answer": "a",
+      "explanation": "Tree shaking removes unused CSS code from the final bundle."
+    },
+    {
+      "id": 189,
+      "category": "CSS Optimization",
+      "question": "What improves CSS load time?",
+      "options": {
+        "a": "Critical CSS inline",
+        "b": "More comments",
+        "c": "Longer selectors",
+        "d": "Multiple files"
+      },
+      "correct_answer": "a",
+      "explanation": "Inlining critical CSS improves initial page load time."
+    },
+    {
+      "id": 190,
+      "category": "Advanced Concepts",
+      "question": "What is CSS containment?",
+      "options": {
+        "a": "Isolates DOM subtree",
+        "b": "Contains text",
+        "c": "Wraps content",
+        "d": "Limits width"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS containment isolates a DOM subtree from the rest of the document."
+    },
+    {
+      "id": 191,
+      "category": "Advanced Concepts",
+      "question": "What is the :is() pseudo-class?",
+      "options": {
+        "a": "Matches any selector in list",
+        "b": "Checks existence",
+        "c": "Validates input",
+        "d": "Tests condition"
+      },
+      "correct_answer": "a",
+      "explanation": "The :is() pseudo-class takes a selector list and matches any of them."
+    },
+    {
+      "id": 192,
+      "category": "CSS Grid",
+      "question": "What is auto-fill in Grid?",
+      "options": {
+        "a": "Creates empty tracks",
+        "b": "Fills space",
+        "c": "Auto width",
+        "d": "Auto height"
+      },
+      "correct_answer": "a",
+      "explanation": "auto-fill creates as many tracks as possible, including empty ones."
+    },
+    {
+      "id": 193,
+      "category": "CSS Flexbox",
+      "question": "What is flex-grow: 0?",
+      "options": {
+        "a": "No growing allowed",
+        "b": "Maximum growth",
+        "c": "Equal growth",
+        "d": "Proportional growth"
+      },
+      "correct_answer": "a",
+      "explanation": "flex-grow: 0 prevents the item from growing to fill available space."
+    },
+    {
+      "id": 194,
+      "category": "CSS Variables",
+      "question": "What is @property in CSS?",
+      "options": {
+        "a": "Defines custom property type",
+        "b": "Sets property value",
+        "c": "Creates animation",
+        "d": "Declares variable"
+      },
+      "correct_answer": "a",
+      "explanation": "@property defines custom property characteristics like type and inheritance."
+    },
+    {
+      "id": 195,
+      "category": "CSS Performance",
+      "question": "What is paint flashing?",
+      "options": {
+        "a": "Visualizes repaints",
+        "b": "Animation effect",
+        "c": "Color change",
+        "d": "Loading indicator"
+      },
+      "correct_answer": "a",
+      "explanation": "Paint flashing is a dev tool feature that visualizes when elements are repainted."
+    },
+    {
+      "id": 196,
+      "category": "CSS Frameworks",
+      "question": "What is Tailwind CSS?",
+      "options": {
+        "a": "Utility-first framework",
+        "b": "Component library",
+        "c": "CSS preprocessor",
+        "d": "CSS compiler"
+      },
+      "correct_answer": "a",
+      "explanation": "Tailwind CSS is a utility-first CSS framework for rapid UI development."
+    },
+    {
+      "id": 197,
+      "category": "CSS Frameworks",
+      "question": "What is a benefit of CSS-in-JS libraries?",
+      "options": {
+        "a": "Scoped styles",
+        "b": "Smaller bundles",
+        "c": "Faster loading",
+        "d": "Better compatibility"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS libraries provide scoped styles to prevent style conflicts."
+    },
+    {
+      "id": 198,
+      "category": "CSS Tools",
+      "question": "What does PostCSS do?",
+      "options": {
+        "a": "Transforms CSS with JavaScript",
+        "b": "Compiles Sass",
+        "c": "Minifies CSS",
+        "d": "Creates animations"
+      },
+      "correct_answer": "a",
+      "explanation": "PostCSS transforms CSS with JavaScript plugins."
+    },
+    {
+      "id": 199,
+      "category": "CSS Tools",
+      "question": "What is Stylelint used for?",
+      "options": {
+        "a": "Linting CSS code",
+        "b": "Compiling CSS",
+        "c": "Creating styles",
+        "d": "Testing CSS"
+      },
+      "correct_answer": "a",
+      "explanation": "Stylelint is a linter that helps avoid errors and enforce conventions in CSS code."
+    },
+    {
+      "id": 200,
+      "category": "Modern Development",
+      "question": "What is CSS Modules scope?",
+      "options": {
+        "a": "File-level",
+        "b": "Global",
+        "c": "Component-level",
+        "d": "Application-level"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Modules scope is at the file level, making styles local to the file."
+    },
+    {
+      "id": 201,
+      "category": "Modern Development",
+      "question": "What is CSS-in-JS?",
+      "options": {
+        "a": "Writing CSS in JavaScript",
+        "b": "JavaScript in CSS",
+        "c": "CSS preprocessing",
+        "d": "CSS compilation"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS is the practice of writing CSS styles within JavaScript code."
+    },
+    {
+      "id": 202,
+      "category": "CSS Grid",
+      "question": "What is grid-auto-flow: dense?",
+      "options": {
+        "a": "Fills empty grid spaces",
+        "b": "Creates dense grid",
+        "c": "Auto placement",
+        "d": "Grid spacing"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-auto-flow: dense attempts to fill in empty grid spaces with smaller items."
+    },
+    {
+      "id": 203,
+      "category": "CSS Flexbox",
+      "question": "What is flex: 1?",
+      "options": {
+        "a": "Shorthand for flex-grow:1",
+        "b": "Sets width",
+        "c": "Sets height",
+        "d": "Flex direction"
+      },
+      "correct_answer": "a",
+      "explanation": "flex: 1 is shorthand for flex-grow: 1, flex-shrink: 1, flex-basis: 0%."
+    },
+    {
+      "id": 204,
+      "category": "CSS Variables",
+      "question": "What is the scope of :host variables?",
+      "options": {
+        "a": "Shadow DOM component",
+        "b": "Global scope",
+        "c": "Local scope",
+        "d": "Document scope"
+      },
+      "correct_answer": "a",
+      "explanation": "Variables defined in :host are scoped to the Shadow DOM component."
+    },
+    {
+      "id": 205,
+      "category": "CSS Performance",
+      "question": "What affects CSS rendering?",
+      "options": {
+        "a": "Selector complexity",
+        "b": "Comments",
+        "c": "Whitespace",
+        "d": "Variable names"
+      },
+      "correct_answer": "a",
+      "explanation": "Complex selectors can affect CSS rendering performance."
+    },
+    {
+      "id": 206,
+      "category": "CSS Architecture",
+      "question": "What is Atomic CSS?",
+      "options": {
+        "a": "Single-purpose classes",
+        "b": "Component classes",
+        "c": "Global styles",
+        "d": "Nested styles"
+      },
+      "correct_answer": "a",
+      "explanation": "Atomic CSS uses single-purpose utility classes for styling."
+    },
+    {
+      "id": 207,
+      "category": "CSS Architecture",
+      "question": "What is ITCSS?",
+      "options": {
+        "a": "Inverted Triangle architecture",
+        "b": "Inline styling",
+        "c": "Internal CSS",
+        "d": "Integrated styles"
+      },
+      "correct_answer": "a",
+      "explanation": "ITCSS is a CSS architecture based on specificity levels organized in an inverted triangle."
+    },
+    {
+      "id": 208,
+      "category": "Modern Features",
+      "question": "What is the :where() selector?",
+      "options": {
+        "a": "Zero-specificity :is()",
+        "b": "Location selector",
+        "c": "Position finder",
+        "d": "Element matcher"
+      },
+      "correct_answer": "a",
+      "explanation": ":where() is like :is() but with zero specificity."
+    },
+    {
+      "id": 209,
+      "category": "Modern Features",
+      "question": "What are logical properties?",
+      "options": {
+        "a": "Writing-mode aware properties",
+        "b": "Smart properties",
+        "c": "Conditional styles",
+        "d": "Dynamic properties"
+      },
+      "correct_answer": "a",
+      "explanation": "Logical properties adapt to the writing mode and direction of the document."
+    },
+    {
+      "id": 210,
+      "category": "CSS Grid",
+      "question": "What is masonry layout?",
+      "options": {
+        "a": "Grid with varying heights",
+        "b": "Fixed grid",
+        "c": "Flex layout",
+        "d": "Table layout"
+      },
+      "correct_answer": "a",
+      "explanation": "Masonry layout is a grid layout with items of varying heights, like a brick wall."
+    },
+    {
+      "id": 211,
+      "category": "CSS Grid",
+      "question": "What is grid-template?",
+      "options": {
+        "a": "Shorthand for grid definition",
+        "b": "Grid size",
+        "c": "Grid spacing",
+        "d": "Grid items"
+      },
+      "correct_answer": "a",
+      "explanation": "grid-template is a shorthand for defining grid rows, columns, and areas."
+    },
+    {
+      "id": 212,
+      "category": "CSS Flexbox",
+      "question": "What is align-content: space-evenly?",
+      "options": {
+        "a": "Equal space distribution",
+        "b": "Center alignment",
+        "c": "End alignment",
+        "d": "Start alignment"
+      },
+      "correct_answer": "a",
+      "explanation": "align-content: space-evenly distributes space evenly between flex lines."
+    },
+    {
+      "id": 213,
+      "category": "CSS Variables",
+      "question": "What is var() fallback chain?",
+      "options": {
+        "a": "Multiple fallback values",
+        "b": "Single fallback",
+        "c": "No fallback",
+        "d": "Default value"
+      },
+      "correct_answer": "a",
+      "explanation": "var() can have multiple fallback values in a chain."
+    },
+    {
+      "id": 214,
+      "category": "CSS Performance",
+      "question": "What is will-change?",
+      "options": {
+        "a": "Performance optimization hint",
+        "b": "Animation property",
+        "c": "State change",
+        "d": "Transition effect"
+      },
+      "correct_answer": "a",
+      "explanation": "will-change hints to browsers about expected changes for optimization."
+    },
+    {
+      "id": 215,
+      "category": "CSS Optimization",
+      "question": "What is critical CSS?",
+      "options": {
+        "a": "Above-fold styles",
+        "b": "All styles",
+        "c": "Important styles",
+        "d": "Required styles"
+      },
+      "correct_answer": "a",
+      "explanation": "Critical CSS includes styles needed for above-the-fold content."
+    },
+    {
+      "id": 216,
+      "category": "Modern Features",
+      "question": "What is aspect-ratio property?",
+      "options": {
+        "a": "Maintains width/height ratio",
+        "b": "Sets width",
+        "c": "Sets height",
+        "d": "Changes size"
+      },
+      "correct_answer": "a",
+      "explanation": "aspect-ratio maintains a consistent width-to-height ratio."
+    },
+    {
+      "id": 217,
+      "category": "CSS Architecture",
+      "question": "What is CSS-in-JS scoping?",
+      "options": {
+        "a": "Component-level styles",
+        "b": "Global styles",
+        "c": "Page styles",
+        "d": "App styles"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS-in-JS provides component-level style scoping."
+    },
+    {
+      "id": 218,
+      "category": "Modern Features",
+      "question": "What is container queries?",
+      "options": {
+        "a": "Container-based styling",
+        "b": "Viewport queries",
+        "c": "Media queries",
+        "d": "Element queries"
+      },
+      "correct_answer": "a",
+      "explanation": "Container queries allow styling based on container size."
+    },
+    {
+      "id": 219,
+      "category": "CSS Grid",
+      "question": "What is subgrid?",
+      "options": {
+        "a": "Inherits parent grid lines",
+        "b": "Nested grid",
+        "c": "Grid template",
+        "d": "Grid area"
+      },
+      "correct_answer": "a",
+      "explanation": "Subgrid allows grid items to inherit grid lines from parent grid."
+    },
+    {
+      "id": 220,
+      "category": "CSS Performance",
+      "question": "What causes layout thrashing?",
+      "options": {
+        "a": "Read-write-read cycle",
+        "b": "CSS changes",
+        "c": "HTML updates",
+        "d": "JavaScript code"
+      },
+      "correct_answer": "a",
+      "explanation": "Layout thrashing occurs when repeatedly reading and writing layout properties."
+    },
+    {
+      "id": 221,
+      "category": "Modern Features",
+      "question": "What is scroll-snap-type?",
+      "options": {
+        "a": "Controls scroll stopping",
+        "b": "Scroll speed",
+        "c": "Scroll direction",
+        "d": "Scroll behavior"
+      },
+      "correct_answer": "a",
+      "explanation": "scroll-snap-type controls how strictly snap points are enforced."
+    },
+    {
+      "id": 222,
+      "category": "CSS Architecture",
+      "question": "What is CSS Modules advantage?",
+      "options": {
+        "a": "Local scope by default",
+        "b": "Global styles",
+        "c": "Faster loading",
+        "d": "Better support"
+      },
+      "correct_answer": "a",
+      "explanation": "CSS Modules provide local scope for styles by default."
+    },
+    {
+      "id": 223,
+      "category": "Modern Features",
+      "question": "What is backdrop-filter?",
+      "options": {
+        "a": "Background effects",
+        "b": "Text effects",
+        "c": "Border effects",
+        "d": "Shadow effects"
+      },
+      "correct_answer": "a",
+      "explanation": "backdrop-filter applies filters to the area behind an element."
+    },
+    {
+      "id": 224,
+      "category": "CSS Performance",
+      "question": "What is content-visibility?",
+      "options": {
+        "a": "Skips offscreen rendering",
+        "b": "Hides content",
+        "c": "Shows content",
+        "d": "Content display"
+      },
+      "correct_answer": "a",
+      "explanation": "content-visibility allows skipping rendering of offscreen content."
+    },
+    {
+      "id": 225,
+      "category": "Modern Features",
+      "question": "What is @layer used for?",
+      "options": {
+        "a": "Cascade layering",
+        "b": "Visual layers",
+        "c": "Style groups",
+        "d": "CSS organization"
+      },
+      "correct_answer": "a",
+      "explanation": "@layer declares cascade layers to control specificity conflicts."
+    }
+  ]
+} 
