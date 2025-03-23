@@ -1,0 +1,229 @@
+/* Content Wrapper */
+.content-wrapper {
+    position: fixed;
+    padding-left: var(--navbar-collapsed-width);
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%);
+}
+
+.playground-container {
+    padding: 20px;
+    height: 100%;
+}
+
+.playground-title {
+    color: #1ec8ff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Editor Container */
+.editor-container {
+    display: flex;
+    height: calc(100vh - 120px);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+/* Code Panel */
+.code-panel {
+    width: 50%;
+    background: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.1s ease;
+}
+
+/* Resizer */
+.resizer {
+    width: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: col-resize;
+    position: relative;
+    transition: background 0.3s;
+    z-index: 100;
+}
+
+.resizer:hover,
+.resizer.active {
+    background: rgba(30, 200, 255, 0.5);
+}
+
+.resizer::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 6px;
+    background: rgba(30, 200, 255, 0.3);
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.resizer:hover::after {
+    opacity: 1;
+}
+
+/* Output Panel */
+.output-panel {
+    width: 50%;
+    background: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.1s ease;
+}
+
+/* Output Container */
+.output-container {
+    flex: 1;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+
+#output {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #fff;
+}
+
+/* CodeMirror Customization */
+.CodeMirror {
+    height: 100%;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 0 0 10px 10px;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #3e3e3e;
+    background: #1e1e1e;
+}
+
+.CodeMirror-linenumber {
+    color: #666;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+    display: flex;
+    background: #252526;
+    border-bottom: 1px solid #3e3e3e;
+    position: relative;
+}
+
+.tab-button {
+    padding: 12px 24px;
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab-button:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-button.active {
+    color: #1ec8ff;
+    border-bottom: 2px solid #1ec8ff;
+    background: rgba(30, 200, 255, 0.05);
+}
+
+.reset-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-button:hover {
+    color: #1ec8ff;
+    background: rgba(30, 200, 255, 0.1);
+}
+
+.reset-button ion-icon {
+    font-size: 16px;
+}
+
+/* Editor Wrapper */
+.editor-wrapper {
+    display: none;
+    height: 100%;
+}
+
+.editor-wrapper.active {
+    display: block;
+}
+
+/* Panel Header */
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #252526;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+.panel-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.run-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #1ec8ff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.run-button:hover {
+    background: #15a5d9;
+}
+
+.run-button ion-icon {
+    font-size: 16px;
+}
